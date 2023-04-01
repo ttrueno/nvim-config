@@ -79,6 +79,21 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  atlas = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\atlas",
+    url = "https://github.com/huyvohcmc/atlas.vim"
+  },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -120,6 +135,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
@@ -129,6 +149,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  meh = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\meh",
+    url = "https://github.com/davidosomething/vim-colors-meh"
+  },
+  ["minimal.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\minimal.nvim",
+    url = "https://github.com/Yazeed1s/minimal.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
@@ -176,6 +206,26 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rasmus.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rasmus.nvim",
+    url = "https://github.com/kvrohit/rasmus.nvim"
+  },
+  ["rose-pine"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
+    url = "https://github.com/rose-pine/neovim"
+  },
+  skull = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\skull",
+    url = "https://github.com/kadekillary/skull-vim"
+  },
+  ["substrata.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\substrata.nvim",
+    url = "https://github.com/kvrohit/substrata.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -192,10 +242,15 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
   },
-  ["vim-airline"] = {
+  ["vim-be-good"] = {
     loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["vim-sunbather"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-sunbather",
+    url = "https://github.com/nikolvs/vim-sunbather"
   },
   vscode = {
     loaded = true,

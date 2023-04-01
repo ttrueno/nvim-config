@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
 
    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
    use('mbbill/undotree')
-   use('vim-airline/vim-airline')
    use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
@@ -60,4 +59,20 @@ use {
 }
 use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
 use {'Mofiqul/vscode.nvim', as = "vscode"}
+use {'huyvohcmc/atlas.vim', as = "atlas"}
+use {'davidosomething/vim-colors-meh', as = "meh"}
+use {'kadekillary/skull-vim', as = "skull"}
+use {"nikolvs/vim-sunbather"}
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
+use 'nvim-tree/nvim-web-devicons'
+use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
+use({ 'rose-pine/neovim', as = 'rose-pine' })
+use 'Yazeed1s/minimal.nvim'
+use 'kvrohit/substrata.nvim'
+use { "catppuccin/nvim", as = "catppuccin" }
+use 'ThePrimeagen/vim-be-good'
+use 'kvrohit/rasmus.nvim'
 end)

@@ -24,4 +24,3 @@ vim.opt.signcolumn = "yes"
 vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 
-vim.g.coc_start_at_startup = 0
