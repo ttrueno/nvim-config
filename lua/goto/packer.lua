@@ -75,4 +75,17 @@ use 'kvrohit/substrata.nvim'
 use { "catppuccin/nvim", as = "catppuccin" }
 use 'ThePrimeagen/vim-be-good'
 use 'kvrohit/rasmus.nvim'
+use('neovim/nvim-lspconfig')
+use('jose-elias-alvarez/null-ls.nvim')
+use('MunifTanjim/prettier.nvim')
+use {
+  "folke/trouble.nvim",
+  requires = "nvim-tree/nvim-web-devicons",
+  config = function()
+    require("trouble").setup {
+
+    }
+  end
+}
+use('fatih/vim-go', { run = ':GoUpdateBinaries' })
 end)
