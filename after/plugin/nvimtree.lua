@@ -6,3 +6,7 @@ require("nvim-tree").setup {
       relativenumber = true,
    }
 }
+
+vim.keymap.set("n", "<leader><Tab>", function() 
+   vim.cmd("NvimTreeToggle")
+end)
