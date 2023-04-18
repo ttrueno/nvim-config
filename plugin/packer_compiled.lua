@@ -79,21 +79,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  atlas = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\atlas",
-    url = "https://github.com/huyvohcmc/atlas.vim"
-  },
-  ["barbar.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
-  },
-  catppuccin = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -130,6 +115,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  gruvbox = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
@@ -154,21 +149,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  meh = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\meh",
-    url = "https://github.com/davidosomething/vim-colors-meh"
-  },
-  ["minimal.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\minimal.nvim",
-    url = "https://github.com/Yazeed1s/minimal.nvim"
-  },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
@@ -216,31 +196,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["prettier.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\prettier.nvim",
-    url = "https://github.com/MunifTanjim/prettier.nvim"
-  },
-  ["rasmus.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rasmus.nvim",
-    url = "https://github.com/kvrohit/rasmus.nvim"
-  },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-    url = "https://github.com/rose-pine/neovim"
-  },
-  skull = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\skull",
-    url = "https://github.com/kadekillary/skull-vim"
-  },
-  ["substrata.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\substrata.nvim",
-    url = "https://github.com/kvrohit/substrata.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -273,11 +228,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-go",
     url = "https://github.com/fatih/vim-go"
   },
-  ["vim-sunbather"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-sunbather",
-    url = "https://github.com/nikolvs/vim-sunbather"
-  },
   vscode = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode",
@@ -286,6 +236,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
+-- Config for: focus.nvim
+time([[Config for focus.nvim]], true)
+try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
+time([[Config for focus.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
@@ -294,14 +252,6 @@ time([[Config for nvim-autopairs]], false)
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
--- Config for: focus.nvim
-time([[Config for focus.nvim]], true)
-try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
-time([[Config for focus.nvim]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

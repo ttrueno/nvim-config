@@ -59,25 +59,13 @@ use {
 }
 use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
 use {'Mofiqul/vscode.nvim', as = "vscode"}
-use {'huyvohcmc/atlas.vim', as = "atlas"}
-use {'davidosomething/vim-colors-meh', as = "meh"}
-use {'kadekillary/skull-vim', as = "skull"}
-use {"nikolvs/vim-sunbather"}
 use {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 use 'nvim-tree/nvim-web-devicons'
-use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
-use({ 'rose-pine/neovim', as = 'rose-pine' })
-use 'Yazeed1s/minimal.nvim'
-use 'kvrohit/substrata.nvim'
-use { "catppuccin/nvim", as = "catppuccin" }
 use 'ThePrimeagen/vim-be-good'
-use 'kvrohit/rasmus.nvim'
 use('neovim/nvim-lspconfig')
-use('jose-elias-alvarez/null-ls.nvim')
-use('MunifTanjim/prettier.nvim')
 use {
   "folke/trouble.nvim",
   requires = "nvim-tree/nvim-web-devicons",
@@ -93,4 +81,6 @@ use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
 })
+use {'sainnhe/gruvbox-material', as = "gruvbox-material"}
+use 'morhetz/gruvbox'
 end)

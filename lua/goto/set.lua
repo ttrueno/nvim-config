@@ -14,13 +14,13 @@ vim.opt.softtabstop = 3
 vim.opt.shiftwidth = 3
 vim.opt.expandtab = true
 
-
 vim.opt.smartindent = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
-vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 
+vim.g.gruvbox_contrast_dark='hard'
+vim.g.gruvbox_contrast_light='hard'

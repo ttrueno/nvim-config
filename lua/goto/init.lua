@@ -7,6 +7,6 @@ require("nvim-tree").setup({
     dotfiles = true,
   },
 })
-vim.cmd("colorscheme oxocarbon")
 require("goto.remaps")
 require("goto.set")
+
