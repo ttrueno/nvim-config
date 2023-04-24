@@ -15,6 +15,14 @@ return require('packer').startup(function(use)
 
    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
    use('mbbill/undotree')
+   use 'neovim/nvim-lspconfig'
+   use 'hrsh7th/cmp-nvim-lsp'
+   use 'hrsh7th/cmp-buffer'
+   use 'hrsh7th/cmp-path'
+   use 'hrsh7th/cmp-cmdline'
+   use 'hrsh7th/nvim-cmp'
+   use 'L3MON4D3/LuaSnip'
+   use 'saadparwaiz1/cmp_luasnip'
    use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
@@ -46,12 +54,6 @@ return require('packer').startup(function(use)
 use {"akinsho/toggleterm.nvim", tag = '*', config = function()
    require("toggleterm").setup()
 end}
-use {
-   'nvim-tree/nvim-tree.lua',
-   requires = {
-      'nvim-tree/nvim-web-devicons', -- optional
-   },
-} 
 use {'nyoom-engineering/oxocarbon.nvim', as = "oxocarbon"} 
 use {
 	"windwp/nvim-autopairs",
@@ -65,7 +67,6 @@ use {
 }
 use 'nvim-tree/nvim-web-devicons'
 use 'ThePrimeagen/vim-be-good'
-use('neovim/nvim-lspconfig')
 use {
   "folke/trouble.nvim",
   requires = "nvim-tree/nvim-web-devicons",
@@ -83,4 +84,49 @@ use({
 })
 use {'sainnhe/gruvbox-material', as = "gruvbox-material"}
 use 'morhetz/gruvbox'
+use { "ntk148v/komau.vim" }
+use 'rockerBOO/boo-colorscheme-nvim'
+use {'folke/twilight.nvim', config = function() 
+   require("twilight").setup {
+      {
+  dimming = {
+    alpha = 0.25, -- amount of dimming
+    -- we try to get the foreground from the highlight groups or fallback color
+    color = { "Normal", "#ffffff" },
+    term_bg = "#000000", -- if guibg=NONE, this will be used to calculate text color
+    inactive = false, -- when true, other windows will be fully dimmed (unless they contain the same buffer)
+  },
+  context = 25, -- amount of lines we will try to show around the current line
+  treesitter = true, 
+  expand = { -- for treesitter, we we always try to expand to the top-most ancestor with these types
+    "function",
+  },
+  exclude = {}, -- exclude these filetypes
+}
+    }   
+end
+}
+use 'lewis6991/impatient.nvim'
+use 'reedes/vim-colors-pencil'
+
+use {
+  "folke/zen-mode.nvim",
+  config = function()
+    require("zen-mode").setup {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    }
+  end
+}
+
+use {
+  "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
+    requires = { 
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }
+  }
 end)

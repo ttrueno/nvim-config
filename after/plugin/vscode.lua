@@ -6,7 +6,7 @@ require('vscode').setup({
    disable_nvimtree_bg = true,
     group_overrides = {
         Cursor = { fg=c.vscDarkBlue, bg=c.vscLightGreen, bold=true },
-    }
+    },
 })
 
 vim.cmd("colorscheme vscode")

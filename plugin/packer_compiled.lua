@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["boo-colorscheme-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
@@ -125,6 +135,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
+  },
+  ["komau.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\komau.vim",
+    url = "https://github.com/ntk148v/komau.vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
@@ -150,6 +170,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neo-tree.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
@@ -165,11 +195,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -213,6 +238,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
+  ["twilight.nvim"] = {
+    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\rinactive\1\nalpha\4\0€€Àþ\3\nsetup\rtwilight\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\twilight.nvim",
+    url = "https://github.com/folke/twilight.nvim"
+  },
   undotree = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
@@ -223,6 +254,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
   },
+  ["vim-colors-pencil"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-colors-pencil",
+    url = "https://github.com/reedes/vim-colors-pencil"
+  },
   ["vim-go"] = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-go",
@@ -232,6 +268,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode",
     url = "https://github.com/Mofiqul/vscode.nvim"
+  },
+  ["zen-mode.nvim"] = {
+    config = { "\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
@@ -240,18 +282,26 @@ time([[Defining packer_plugins]], false)
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
--- Config for: focus.nvim
-time([[Config for focus.nvim]], true)
-try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
-time([[Config for focus.nvim]], false)
+-- Config for: zen-mode.nvim
+time([[Config for zen-mode.nvim]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
+time([[Config for zen-mode.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
+-- Config for: twilight.nvim
+time([[Config for twilight.nvim]], true)
+try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\rinactive\1\nalpha\4\0€€Àþ\3\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
+time([[Config for twilight.nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: focus.nvim
+time([[Config for focus.nvim]], true)
+try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
+time([[Config for focus.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

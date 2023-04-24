@@ -1,7 +1,7 @@
 require('telescope').setup{ 
   defaults = { 
     file_ignore_patterns = { 
-      "node_modules", ".git", ".md" 
+      "node_modules", ".git" 
     }
   }
 }
@@ -13,4 +13,4 @@ vim.keymap.set('n', '<leader>pb', function()
    vim.cmd("Telescope buffers")
    vim.api.nvim_input("<esc>")
 end)
-vim.keymap.set("n", '<leader>ps', builtin.live_grep, {})
+vim.keymap.set("n", '<leader>ps', builtin.live_grep)
