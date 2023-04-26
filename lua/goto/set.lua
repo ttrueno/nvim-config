@@ -22,5 +22,17 @@ vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
 vim.g.mapleader = " "
 
-vim.g.gruvbox_contrast_dark='hard'
-vim.g.gruvbox_contrast_light='hard'
+if vim.g.neovide then
+   vim.o.guifont = "JetBrainsMonoNL Nerd Font:h13"
+   vim.g.neovide_cursor_animation_length = 0.12
+   vim.g.neovide_cursor_vfx_mode = "wireframe"
+   vim.g.neovide_cursor_vfx_opacity = 200.0
+   vim.g.neovide_cursor_vfx_particle_speed = 10.0
+
+   vim.keymap.set("n", "<F11>", function() 
+      vim.cmd("lua vim.g.neovide_fullscreen = true")
+   end)
+   vim.keymap.set("n", "<leader><F11>", function() 
+      vim.cmd("lua vim.g.neovide_fullscreen = false")
+   end)
+end

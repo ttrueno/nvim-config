@@ -83,7 +83,6 @@ use({
     run = function() vim.fn["mkdp#util#install"]() end,
 })
 use {'sainnhe/gruvbox-material', as = "gruvbox-material"}
-use 'morhetz/gruvbox'
 use { "ntk148v/komau.vim" }
 use 'rockerBOO/boo-colorscheme-nvim'
 use {'folke/twilight.nvim', config = function() 
@@ -129,4 +128,12 @@ use {
       "MunifTanjim/nui.nvim",
     }
   }
+
+use 'NLKNguyen/papercolor-theme'
+use 'Mofiqul/dracula.nvim'
+use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+use 'lifepillar/vim-gruvbox8'
+use 'kartikp10/noctis.nvim'
+use 'lewis6991/gitsigns.nvim'
+use { "ellisonleao/gruvbox.nvim" }
 end)
