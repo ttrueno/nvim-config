@@ -13,7 +13,6 @@ return require('packer').startup(function(use)
       requires = { {'nvim-lua/plenary.nvim'} }
    }
 
-   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
    use('mbbill/undotree')
    use 'neovim/nvim-lspconfig'
    use 'hrsh7th/cmp-nvim-lsp'
@@ -23,6 +22,7 @@ return require('packer').startup(function(use)
    use 'hrsh7th/nvim-cmp'
    use 'L3MON4D3/LuaSnip'
    use 'saadparwaiz1/cmp_luasnip'
+   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
    use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
@@ -51,9 +51,7 @@ return require('packer').startup(function(use)
    }
 }
 
-use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-   require("toggleterm").setup()
-end}
+use {"akinsho/toggleterm.nvim", tag = '*'}
 use {'nyoom-engineering/oxocarbon.nvim', as = "oxocarbon"} 
 use {
 	"windwp/nvim-autopairs",
