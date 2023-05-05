@@ -1,9 +1,15 @@
 require("toggleterm").setup{
-   start_in_insert = false,
+   start_in_insert = true,
    direction = 'float',
    float_opts = {
-    border = 'curved',
-  },
+      border = 'curved',
+   },
+   winbar = {
+      enabled = true,
+      name_formatter = function(term) 
+         return term.name
+      end
+   },
 }
 
 vim.keymap.set("n", "<leader>t", function() 

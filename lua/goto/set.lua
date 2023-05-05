@@ -34,3 +34,5 @@ if vim.g.neovide then
       vim.cmd("lua vim.g.neovide_fullscreen = false")
    end)
 end
+
+vim.cmd('colorscheme vscode')

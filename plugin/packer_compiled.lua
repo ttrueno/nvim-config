@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\POWERS~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\POWERS~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\POWERS~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\POWERS~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\POWERS~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+local package_path_str = "C:\\Users\\smara\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\smara\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\smara\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\smara\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\smara\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,237 +76,257 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["boo-colorscheme-nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\boo-colorscheme-nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\boo-colorscheme-nvim",
     url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
     url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
     url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["darcula-solid.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim",
     url = "https://github.com/briones-gabriel/darcula-solid.nvim"
   },
   ["dracula.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dracula.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
   ["focus.nvim"] = {
     config = { "\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0" },
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\focus.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\focus.nvim",
     url = "https://github.com/beauwilliams/focus.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["gruvbox-material"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
     url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["impatient.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["komau.vim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\komau.vim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\komau.vim",
     url = "https://github.com/ntk148v/komau.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
   ["noctis.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\noctis.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\noctis.nvim",
     url = "https://github.com/kartikp10/noctis.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["nvim-window-picker"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-window-picker",
+    url = "https://github.com/s1n7ax/nvim-window-picker"
   },
   oxocarbon = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\oxocarbon",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\oxocarbon",
     url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["papercolor-theme"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\papercolor-theme",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\papercolor-theme",
     url = "https://github.com/NLKNguyen/papercolor-theme"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["trouble.nvim"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
   ["twilight.nvim"] = {
-    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\fcontext\3\25\15treesitter\2\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\nalpha\4\0€€Àþ\3\rinactive\1\nsetup\rtwilight\frequire\0" },
+    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\fcontext\3\25\15treesitter\2\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\nalpha\4\0€€Àþ\3\rinactive\1\fterm_bg\f#000000\nsetup\rtwilight\frequire\0" },
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\twilight.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\twilight.nvim",
     url = "https://github.com/folke/twilight.nvim"
   },
   undotree = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
   },
   ["vim-be-good"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-colors-pencil"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-colors-pencil",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-colors-pencil",
     url = "https://github.com/reedes/vim-colors-pencil"
   },
   ["vim-go"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-go",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-go",
     url = "https://github.com/fatih/vim-go"
   },
   ["vim-gruvbox8"] = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-gruvbox8",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-gruvbox8",
     url = "https://github.com/lifepillar/vim-gruvbox8"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   },
   vscode = {
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode",
     url = "https://github.com/Mofiqul/vscode.nvim"
   },
   ["zen-mode.nvim"] = {
     config = { "\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0" },
     loaded = true,
-    path = "C:\\Users\\powersaviingmode\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\zen-mode.nvim",
+    path = "C:\\Users\\smara\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\zen-mode.nvim",
     url = "https://github.com/folke/zen-mode.nvim"
   }
 }
@@ -314,8 +334,12 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: twilight.nvim
 time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\fcontext\3\25\15treesitter\2\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\nalpha\4\0€€Àþ\3\rinactive\1\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
+try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\fcontext\3\25\15treesitter\2\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\nalpha\4\0€€Àþ\3\rinactive\1\fterm_bg\f#000000\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
 time([[Config for twilight.nvim]], false)
+-- Config for: zen-mode.nvim
+time([[Config for zen-mode.nvim]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
+time([[Config for zen-mode.nvim]], false)
 -- Config for: focus.nvim
 time([[Config for focus.nvim]], true)
 try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
@@ -324,10 +348,6 @@ time([[Config for focus.nvim]], false)
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
--- Config for: zen-mode.nvim
-time([[Config for zen-mode.nvim]], true)
-try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
-time([[Config for zen-mode.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
