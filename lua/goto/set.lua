@@ -35,4 +35,4 @@ if vim.g.neovide then
    end)
 end
 
-vim.cmd('colorscheme vscode')
+vim.cmd('colorscheme kanagawa')

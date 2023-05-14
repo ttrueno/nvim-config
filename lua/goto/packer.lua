@@ -133,4 +133,8 @@ use 'RRethy/vim-illuminate'
 use 'mfussenegger/nvim-dap'
 use "folke/todo-comments.nvim"
 use 's1n7ax/nvim-window-picker'
+use 'simrat39/rust-tools.nvim'
+use 'rebelot/kanagawa.nvim'
+use 'Everblush/nvim'
+use 'metalelf0/jellybeans-nvim'
 end)
