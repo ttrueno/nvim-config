@@ -1,5 +1,7 @@
 vim.cmd [[packadd packer.nvim]]
 
+-- packer
+
 return require('packer').startup(function(use)
    use 'wbthomason/packer.nvim'
 
@@ -47,20 +49,82 @@ return require('packer').startup(function(use)
    }
 }
 
+--terminal
+
 use {"akinsho/toggleterm.nvim", tag = '*'}
-use {'nyoom-engineering/oxocarbon.nvim', as = "oxocarbon"} 
+
+-- automatically created pairs for braces, curly braces and etc.
+
 use {
    "windwp/nvim-autopairs",
    config = function() require("nvim-autopairs").setup {} end
 }
-use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
-use {'Mofiqul/vscode.nvim', as = "vscode"}
+
+-- dev icons
+
+use 'nvim-tree/nvim-web-devicons'
+
+-- game to get good at vim
+--
+use 'ThePrimeagen/vim-be-good'
+
+-- status-line in the bottom
+
 use {
    'nvim-lualine/lualine.nvim',
    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
-use 'nvim-tree/nvim-web-devicons'
-use 'ThePrimeagen/vim-be-good'
+
+-- previewing .md files
+
+use({
+   "iamcco/markdown-preview.nvim",
+   run = function() vim.fn["mkdp#util#install"]() end,
+})
+
+-- startup-time
+
+use 'lewis6991/impatient.nvim'
+
+-- zen-mode
+
+use {
+   "folke/zen-mode.nvim",
+   config = function()
+      require("zen-mode").setup {
+         -- your configuration comes here
+         -- or leave it empty to use the default settings
+         -- refer to the configuration section below
+      }
+   end
+}
+
+-- file tree
+
+use {
+   "nvim-neo-tree/neo-tree.nvim",
+   branch = "v2.x",
+   requires = { 
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+   }
+}
+
+--PROGRAMMING-LANGUAGES:
+-- rust
+use 'simrat39/rust-tools.nvim'
+-- go
+use('fatih/vim-go')
+
+-- git 
+
+use 'lewis6991/gitsigns.nvim'
+
+-- highlighting, error checking and so on
+
+use 'RRethy/vim-illuminate'
+
 use {
    "folke/trouble.nvim",
    requires = "nvim-tree/nvim-web-devicons",
@@ -71,11 +135,35 @@ use {
    end
 }
 
-use('fatih/vim-go')
-use({
-   "iamcco/markdown-preview.nvim",
-   run = function() vim.fn["mkdp#util#install"]() end,
-})
+-- debugging
+
+use 'mfussenegger/nvim-dap'
+
+-- todo-comments
+
+use "folke/todo-comments.nvim"
+
+-- colorshemes 
+
+use 'NLKNguyen/papercolor-theme'
+use 'Mofiqul/dracula.nvim'
+use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+use 'lifepillar/vim-gruvbox8'
+use 'kartikp10/noctis.nvim'
+use { "ellisonleao/gruvbox.nvim" }
+use 'rebelot/kanagawa.nvim'
+use 'Everblush/nvim'
+use 'metalelf0/jellybeans-nvim'
+use 'luisiacc/gruvbox-baby'
+use 'savq/melange-nvim'
+use { "bluz71/vim-nightfly-colors", as = "nightfly" }
+use 'Shatur/neovim-ayu'
+use 'olivercederborg/poimandres.nvim'
+use "EdenEast/nightfox.nvim"
+use 'dikiaap/minimalist'
+use 'reedes/vim-colors-pencil'
+use {'nyoom-engineering/oxocarbon.nvim', as = "oxocarbon"}
+use {'Mofiqul/vscode.nvim', as = "vscode"}
 use {'sainnhe/gruvbox-material', as = "gruvbox-material"}
 use { "ntk148v/komau.vim" }
 use 'rockerBOO/boo-colorscheme-nvim'
@@ -98,43 +186,9 @@ use {'folke/twilight.nvim', config = function()
 }   
 end
 }
-use 'lewis6991/impatient.nvim'
-use 'reedes/vim-colors-pencil'
 
-use {
-   "folke/zen-mode.nvim",
-   config = function()
-      require("zen-mode").setup {
-         -- your configuration comes here
-         -- or leave it empty to use the default settings
-         -- refer to the configuration section below
-      }
-   end
-}
+-- split screens
+ 
+use('mrjones2014/smart-splits.nvim')
 
-use {
-   "nvim-neo-tree/neo-tree.nvim",
-   branch = "v2.x",
-   requires = { 
-      "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
-      "MunifTanjim/nui.nvim",
-   }
-}
-
-use 'NLKNguyen/papercolor-theme'
-use 'Mofiqul/dracula.nvim'
-use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
-use 'lifepillar/vim-gruvbox8'
-use 'kartikp10/noctis.nvim'
-use 'lewis6991/gitsigns.nvim'
-use { "ellisonleao/gruvbox.nvim" }
-use 'RRethy/vim-illuminate'
-use 'mfussenegger/nvim-dap'
-use "folke/todo-comments.nvim"
-use 's1n7ax/nvim-window-picker'
-use 'simrat39/rust-tools.nvim'
-use 'rebelot/kanagawa.nvim'
-use 'Everblush/nvim'
-use 'metalelf0/jellybeans-nvim'
 end)

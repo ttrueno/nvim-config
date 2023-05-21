@@ -124,12 +124,6 @@ _G.packer_plugins = {
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
-  ["focus.nvim"] = {
-    config = { "\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0" },
-    loaded = true,
-    path = "/home/goto/.local/share/nvim/site/pack/packer/start/focus.nvim",
-    url = "https://github.com/beauwilliams/focus.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -139,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
   },
   ["gruvbox-material"] = {
     loaded = true,
@@ -200,10 +199,35 @@ _G.packer_plugins = {
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
+  minimalist = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/minimalist",
+    url = "https://github.com/dikiaap/minimalist"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
+  nightfly = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/nightfly",
+    url = "https://github.com/bluz71/vim-nightfly-colors"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["noctis.nvim"] = {
     loaded = true,
@@ -251,11 +275,6 @@ _G.packer_plugins = {
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["nvim-window-picker"] = {
-    loaded = true,
-    path = "/home/goto/.local/share/nvim/site/pack/packer/start/nvim-window-picker",
-    url = "https://github.com/s1n7ax/nvim-window-picker"
-  },
   oxocarbon = {
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/oxocarbon",
@@ -276,10 +295,20 @@ _G.packer_plugins = {
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["poimandres.nvim"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
+    url = "https://github.com/olivercederborg/poimandres.nvim"
+  },
   ["rust-tools.nvim"] = {
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
+  },
+  ["smart-splits.nvim"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/smart-splits.nvim",
+    url = "https://github.com/mrjones2014/smart-splits.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -303,7 +332,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/trouble.nvim"
   },
   ["twilight.nvim"] = {
-    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\nalpha\4\0€€Àþ\3\rinactive\1\fterm_bg\f#000000\nsetup\rtwilight\frequire\0" },
+    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\rinactive\1\nalpha\4\0€€Àþ\3\fterm_bg\f#000000\nsetup\rtwilight\frequire\0" },
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/twilight.nvim",
     url = "https://github.com/folke/twilight.nvim"
@@ -352,26 +381,22 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: twilight.nvim
+time([[Config for twilight.nvim]], true)
+try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\rinactive\1\nalpha\4\0€€Àþ\3\fterm_bg\f#000000\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
+time([[Config for twilight.nvim]], false)
 -- Config for: zen-mode.nvim
 time([[Config for zen-mode.nvim]], true)
 try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
 time([[Config for zen-mode.nvim]], false)
--- Config for: twilight.nvim
-time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\nalpha\4\0€€Àþ\3\rinactive\1\fterm_bg\f#000000\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
-time([[Config for twilight.nvim]], false)
--- Config for: focus.nvim
-time([[Config for focus.nvim]], true)
-try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nfocus\frequire\0", "config", "focus.nvim")
-time([[Config for focus.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
