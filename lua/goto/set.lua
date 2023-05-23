@@ -35,4 +35,4 @@ if vim.g.neovide then
    end)
 end
 
-vim.cmd('colorscheme everblush')
+vim.cmd('colorscheme kanagawa-dragon')

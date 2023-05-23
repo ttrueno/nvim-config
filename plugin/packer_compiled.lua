@@ -325,6 +325,11 @@ _G.packer_plugins = {
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "/home/goto/.local/share/nvim/site/pack/packer/start/transparent.nvim",
+    url = "https://github.com/xiyaowong/transparent.nvim"
+  },
   ["trouble.nvim"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
     loaded = true,
@@ -332,7 +337,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/trouble.nvim"
   },
   ["twilight.nvim"] = {
-    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\rinactive\1\nalpha\4\0€€Àþ\3\fterm_bg\f#000000\nsetup\rtwilight\frequire\0" },
+    config = { "\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\nalpha\4\0€€Àþ\3\rinactive\1\nsetup\rtwilight\frequire\0" },
     loaded = true,
     path = "/home/goto/.local/share/nvim/site/pack/packer/start/twilight.nvim",
     url = "https://github.com/folke/twilight.nvim"
@@ -381,22 +386,22 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: twilight.nvim
+time([[Config for twilight.nvim]], true)
+try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\fterm_bg\f#000000\nalpha\4\0€€Àþ\3\rinactive\1\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
+time([[Config for twilight.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
--- Config for: twilight.nvim
-time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\2\nâ\1\0\0\6\0\v\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\3\0005\3\6\0005\4\3\0005\5\4\0=\5\5\4=\4\a\0035\4\b\0=\4\t\0034\4\0\0=\4\n\3>\3\1\2B\0\2\1K\0\1\0\fexclude\vexpand\1\2\0\0\rfunction\fdimming\1\0\2\15treesitter\2\fcontext\3\25\ncolor\1\3\0\0\vNormal\f#ffffff\1\0\3\rinactive\1\nalpha\4\0€€Àþ\3\fterm_bg\f#000000\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
-time([[Config for twilight.nvim]], false)
 -- Config for: zen-mode.nvim
 time([[Config for zen-mode.nvim]], true)
 try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\rzen-mode\frequire\0", "config", "zen-mode.nvim")
 time([[Config for zen-mode.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

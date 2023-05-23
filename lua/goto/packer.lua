@@ -191,4 +191,6 @@ end
  
 use('mrjones2014/smart-splits.nvim')
 
+-- transparency
+use 'xiyaowong/transparent.nvim'
 end)
