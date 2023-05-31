@@ -188,9 +188,20 @@ end
 }
 
 -- split screens
- 
+
 use('mrjones2014/smart-splits.nvim')
 
 -- transparency
 use 'xiyaowong/transparent.nvim'
+
+-- commenting
+
+use 'numToStr/Comment.nvim'
+
+-- coc.nvim lsp
+
+use {
+   'neoclide/coc.nvim',
+   branch = 'release', 
+}
 end)
