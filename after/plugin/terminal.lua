@@ -1,9 +1,6 @@
 require("toggleterm").setup{
    start_in_insert = true,
    direction = 'float',
-   float_opts = {
-      border = 'curved',
-   },
    winbar = {
       enabled = true,
       name_formatter = function(term) 

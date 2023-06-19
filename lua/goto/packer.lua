@@ -70,10 +70,10 @@ use 'ThePrimeagen/vim-be-good'
 
 -- status-line in the bottom
 
-use {
-   'nvim-lualine/lualine.nvim',
-   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-}
+-- use {
+--    'nvim-lualine/lualine.nvim',
+--    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+-- }
 
 -- previewing .md files
 
@@ -104,7 +104,7 @@ use {
 use {
    "nvim-neo-tree/neo-tree.nvim",
    branch = "v2.x",
-   requires = { 
+   requires = {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
@@ -117,7 +117,7 @@ use 'simrat39/rust-tools.nvim'
 -- go
 use('fatih/vim-go')
 
--- git 
+-- git
 
 use 'lewis6991/gitsigns.nvim'
 
@@ -127,23 +127,19 @@ use 'RRethy/vim-illuminate'
 
 use {
    "folke/trouble.nvim",
-   requires = "nvim-tree/nvim-web-devicons",
-   config = function()
-      require("trouble").setup {
-
-      }
-   end
-}
+   requires = "nvim-tree/nvim-web-devicons"}
 
 -- debugging
 
 use 'mfussenegger/nvim-dap'
+use 'leoluz/nvim-dap-go'
+use 'rcarriga/nvim-dap-ui'
 
 -- todo-comments
 
 use "folke/todo-comments.nvim"
 
--- colorshemes 
+-- colorshemes
 
 use 'NLKNguyen/papercolor-theme'
 use 'Mofiqul/dracula.nvim'
@@ -167,7 +163,7 @@ use {'Mofiqul/vscode.nvim', as = "vscode"}
 use {'sainnhe/gruvbox-material', as = "gruvbox-material"}
 use { "ntk148v/komau.vim" }
 use 'rockerBOO/boo-colorscheme-nvim'
-use {'folke/twilight.nvim', config = function() 
+use {'folke/twilight.nvim', config = function()
    require("twilight").setup {
       {
          dimming = {
@@ -177,13 +173,13 @@ use {'folke/twilight.nvim', config = function()
             inactive = false, -- when true, other windows will be fully dimmed (unless they contain the same buffer)
          },
          context = 25, -- amount of lines we will try to show around the current line
-         treesitter = true, 
+         treesitter = true,
          expand = { -- for treesitter, we we always try to expand to the top-most ancestor with these types
          "function",
       },
       exclude = {}, -- exclude these filetypes
    }
-}   
+}
 end
 }
 
@@ -202,6 +198,31 @@ use 'numToStr/Comment.nvim'
 
 use {
    'neoclide/coc.nvim',
-   branch = 'release', 
+   branch = 'release',
 }
+
+-- neodev
+
+use 'folke/neodev.nvim'
+
+-- neofmt
+
+use 'sbdchd/neoformat'
+
+-- nvim colorizer
+
+use 'norcalli/nvim-colorizer.lua'
+
+-- lspkind
+
+use 'onsails/lspkind.nvim'
+
+-- null-ls
+
+use 'jose-elias-alvarez/null-ls.nvim'
+
+-- prettier 
+
+use 'MunifTanjim/prettier.nvim'
+
 end)

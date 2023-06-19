@@ -63,14 +63,4 @@ require('lspconfig')['gopls'].setup {
 
 }
 
-require'lspconfig'.bufls.setup{
-   cmd = {
-      '/home/goto/go/bin/bin/bufls', 'serve'
-   },
-   filetypes = {
-      'proto',
-   },
-   root_dir = require'lspconfig'.util.root_pattern("/home/goto/go/bin/bin", ".git")
-}
-
 vim.o.completeopt = 'menuone,noinsert,noselect,preview'
